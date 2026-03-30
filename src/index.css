@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap');
+
+:root {
+  /* White */
+  --white: #ffffff;
+  --black: #111111;
+  /* Selective Yellow */
+  --selective-yellow-base: #ffba08;
+  --selective-yellow-shade-100: #e6a707;
+  --selective-yellow-shade-200: #cc9506;
+  --selective-yellow-shade-300: #b38206;
+  --selective-yellow-shade-400: #997005;
+  --selective-yellow-shade-500: #805d04;
+  --selective-yellow-shade-600: #664a03;
+  --selective-yellow-shade-700: #4d3802;
+  --selective-yellow-shade-800: #332502;
+  --selective-yellow-shade-900: #1a1301;
+  --selective-yellow-tint-100: #ffc121;
+  --selective-yellow-tint-200: #ffc839;
+  --selective-yellow-tint-300: #ffcf52;
+  --selective-yellow-tint-400: #ffd66b;
+  --selective-yellow-tint-500: #ffdd84;
+  --selective-yellow-tint-600: #ffe39c;
+  --selective-yellow-tint-700: #ffeab5;
+  --selective-yellow-tint-800: #fff1ce;
+  --selective-yellow-tint-900: #fff8e6;
+  /* Field Time Green */
+  --field-time-green-base: #659157;
+  --field-time-green-shade-100: #5b834e;
+  --field-time-green-shade-200: #517446;
+  --field-time-green-shade-300: #47663d;
+  --field-time-green-shade-400: #3d5734;
+  --field-time-green-shade-500: #33492c;
+  --field-time-green-shade-600: #283a23;
+  --field-time-green-shade-700: #1e2c1a;
+  --field-time-green-shade-800: #141d11;
+  --field-time-green-shade-900: #0a0f09;
+  --field-time-green-tint-100: #749c68;
+  --field-time-green-tint-200: #84a779;
+  --field-time-green-tint-300: #93b289;
+  --field-time-green-tint-400: #a3bd9a;
+  --field-time-green-tint-500: #b2c8ab;
+  --field-time-green-tint-600: #c1d3bc;
+  --field-time-green-tint-700: #d1decd;
+  --field-time-green-tint-800: #e0e9dd;
+  --field-time-green-tint-900: #f0f4ee;
+  /* American Violet */
+  --american-violet-base: #541388;
+  --american-violet-shade-100: #4c117a;
+  --american-violet-shade-200: #430f6d;
+  --american-violet-shade-300: #3b0d5f;
+  --american-violet-shade-400: #320b52;
+  --american-violet-shade-500: #2a0a44;
+  --american-violet-shade-600: #220836;
+  --american-violet-shade-700: #190629;
+  --american-violet-shade-800: #11041b;
+  --american-violet-shade-900: #08020e;
+  --american-violet-tint-100: #652b94;
+  --american-violet-tint-200: #7642a0;
+  --american-violet-tint-300: #875aac;
+  --american-violet-tint-400: #9871b8;
+  --american-violet-tint-500: #aa89c4;
+  --american-violet-tint-600: #bba1cf;
+  --american-violet-tint-700: #ccb8db;
+  --american-violet-tint-800: #ddd0e7;
+  --american-violet-tint-900: #eee7f3;
+  /* Vermilion Orange */
+  --vermilion-orange-base: #ff6542;
+  --vermilion-orange-shade-100: #e65b3b;
+  --vermilion-orange-shade-200: #cc5135;
+  --vermilion-orange-shade-300: #b3472e;
+  --vermilion-orange-shade-400: #993d28;
+  --vermilion-orange-shade-500: #803321;
+  --vermilion-orange-shade-600: #66281a;
+  --vermilion-orange-shade-700: #4d1e14;
+  --vermilion-orange-shade-800: #33140d;
+  --vermilion-orange-shade-900: #1a0a07;
+  --vermilion-orange-tint-100: #ff7455;
+  --vermilion-orange-tint-200: #ff8468;
+  --vermilion-orange-tint-300: #ff937b;
+  --vermilion-orange-tint-400: #ffa38e;
+  --vermilion-orange-tint-500: #ffb2a1;
+  --vermilion-orange-tint-600: #ffc1b3;
+  --vermilion-orange-tint-700: #ffd1c6;
+  --vermilion-orange-tint-800: #ffe0d9;
+  --vermilion-orange-tint-900: #fff0ec;
+  /* Harbour */
+  --harbour-base: #495867;
+  --harbour-shade-100: #424f5d;
+  --harbour-shade-200: #3a4652;
+  --harbour-shade-300: #333e48;
+  --harbour-shade-400: #2c353e;
+  --harbour-shade-500: #252c34;
+  --harbour-shade-600: #1d2329;
+  --harbour-shade-700: #161a1f;
+  --harbour-shade-800: #0f1215;
+  --harbour-shade-900: #07090a;
+  --harbour-tint-100: #5b6976;
+  --harbour-tint-200: #6d7985;
+  --harbour-tint-300: #808a95;
+  --harbour-tint-400: #929ba4;
+  --harbour-tint-500: #a4acb3;
+  --harbour-tint-600: #b6bcc2;
+  --harbour-tint-700: #c8cdd1;
+  --harbour-tint-800: #dbdee1;
+  --harbour-tint-900: #edeef0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--harbour-shade-500);
+  padding: 0;
+  margin: 0;
+  /*
+  Source - https://stackoverflow.com/a/32861765
+  Posted by shunryu111, modified by community. See post 'Timeline' for change history
+  Retrieved 2026-03-27, License - CC BY-SA 4.0
+  */
+  background-size: 20px 20px;
+  background-image:
+    linear-gradient(to right, var(--harbour-shade-400) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--harbour-shade-400) 1px, transparent 1px);
+}
+
+p, ul {
+  font-family: "Domine";
+  color: var(--harbour-tint-800);
+  font-size: 0.875rem;
+}

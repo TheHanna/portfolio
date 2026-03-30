@@ -1,0 +1,43 @@
+.header {
+  width: 100%;
+  margin-inline: auto;
+  z-index: 50;
+  left: 0;
+  top: 0;
+  right: 0;
+  position: fixed;
+  background-color: var(--american-violet-shade-500)
+}
+
+.main {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100dvh;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 1rem;
+  scroll-behavior: smooth;
+}
+
+.section {
+  padding: 3rem 1rem 1rem 1rem;
+}
+
+.section p {
+  font-family: "Domine";
+  color: var(--harbour-tint-800);
+  font-size: 0.875rem;
+}
+
+.title {
+  font-family: "Montserrat Alternates";
+  color: var(--american-violet-tint-400);
+  border-bottom: 1px dotted
+}

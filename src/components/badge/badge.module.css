@@ -1,0 +1,43 @@
+.badge {
+  display: flex;
+  gap: 0.25rem;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.25rem 0.5rem;
+  font-family: "Domine";
+}
+
+.light {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--black);
+}
+
+.dark {
+  background-color: var(--black);
+  color: var(--white);
+  border: 2px solid var(--white)
+}
+
+.warning {
+  background-color: var(--selective-yellow-base);
+  color: var(--selective-yellow-shade-800);
+  border: 2px solid var(--selective-yellow-tint-800);
+}
+
+.danger {
+  background-color: var(--vermilion-orange-base);
+  color: var(--vermilion-orange-shade-800);
+  border: 2px solid var(--vermilion-orange-tint-800);
+}
+
+.success {
+  background-color: var(--field-time-green-base);
+  color: var(--field-time-green-tint-800);
+}
+
+.info {
+  background-color: var(--harbour-base);
+  border: 2px solid var(--harbour-shade-800);
+  color: var(--harbour-tint-800);
+}

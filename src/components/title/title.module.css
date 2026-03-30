@@ -1,0 +1,18 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-family: "Montserrat Alternates";
+  color: var(--selective-yellow-tint-200);
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.experience {
+  font-family: "Montserrat Alternates";
+  margin: 0;
+  color: var(--harbour-tint-600);
+  font-size: 1.5rem;
+}

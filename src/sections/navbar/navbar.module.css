@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.navbar a {
+  font-family: "Domine";
+  color: var(--american-violet-tint-400);
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  padding: 0.25rem;
+  transition: text-decoration;
+}
+
+.navbar a:hover {
+  text-decoration: underline overline;
+}

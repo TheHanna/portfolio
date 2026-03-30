@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container h4 {
+  font-family: "Montserrat Alternates";
+  color: var(--harbour-tint-800);
+  /* border-bottom: 1px dotted var(--harbour-tint-800); */
+  display: block;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
