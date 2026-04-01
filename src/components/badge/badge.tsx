@@ -8,6 +8,7 @@ export type BadgeVariant =
   | "warning"
   | "danger"
   | "success"
+  | "link"
   | "info";
 
 type BadgeProps = PropsWithChildren & {
@@ -34,6 +35,8 @@ function getVariantStyle(variant: BadgeVariant): string {
       return styles.danger;
     case "success":
       return styles.success;
+    case "link":
+      return styles.link;
     case "info":
       return styles.info;
     default: {

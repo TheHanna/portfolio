@@ -36,6 +36,11 @@
   color: var(--field-time-green-tint-800);
 }
 
+.link {
+  background-color: var(--american-violet-shade-500);
+  color: var(--american-violet-tint-400);
+}
+
 .info {
   background-color: var(--harbour-base);
   border: 2px solid var(--harbour-shade-800);

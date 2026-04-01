@@ -23,7 +23,7 @@
   align-items: center;
   box-sizing: border-box;
   padding: 1rem;
-  scroll-behavior: smooth;
+  position: relative
 }
 
 .section {
@@ -40,4 +40,11 @@
   font-family: "Montserrat Alternates";
   color: var(--american-violet-tint-400);
   border-bottom: 1px dotted
+}
+
+.downArrow {
+  font-size: 4rem;
+  color: var(--field-time-green-tint-200);
+  position: absolute;
+  bottom: 0;
 }

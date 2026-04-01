@@ -1,0 +1,12 @@
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.link {
+  color: var(--american-violet-tint-400);
+}
+
+.link:hover {
+  text-decoration: underline overline;
+}

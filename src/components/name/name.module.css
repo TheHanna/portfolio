@@ -6,12 +6,5 @@
   text-shadow: 4px 4px 2px var(--harbour-shade-700);
   line-height: 4rem;
   text-align: center;
-}
-
-.firstName {
-  color: var(--field-time-green-tint-400);
-}
-
-.lastName {
-  color: var(--vermilion-orange-tint-400);
+  color: var(--american-violet-tint-400)
 }

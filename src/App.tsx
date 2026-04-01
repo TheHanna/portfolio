@@ -1,10 +1,11 @@
+import "animate.css";
+import { BiSolidDownArrowCircle } from "react-icons/bi";
 import styles from "./App.module.css";
-import { Name } from "./components/name/name";
-import { Title } from "./components/title/title";
 import { About } from "./sections/about/about";
 import { Experience } from "./sections/experience/experience";
 import { NavBar } from "./sections/navbar/navbar";
 import { Skills } from "./sections/skills/skills";
+import { Home } from "./sections/home/home";
 
 export function App() {
   return (
@@ -14,8 +15,10 @@ export function App() {
       </header>
       <main className={styles.main}>
         <section className={styles.hero} id="home">
-          <Name />
-          <Title />
+          <Home />
+          <a href="#about" className={styles.downArrow}>
+            <BiSolidDownArrowCircle className="animate__animated animate__bounce animate__infinite" />
+          </a>
         </section>
         <section className={styles.section} id="about">
           <h1 className={styles.title}>About</h1>

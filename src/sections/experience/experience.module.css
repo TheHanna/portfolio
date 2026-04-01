@@ -9,3 +9,17 @@
   margin: 0;
   color: var(--selective-yellow-tint-600)
 }
+
+.app {
+  color: var(--field-time-green-tint-400);
+  font-weight: bold;
+  font-style: italic;
+}
+
+.appDescription {
+  margin-top: 0;
+}
+
+.apps {
+  list-style-type: none;
+}
