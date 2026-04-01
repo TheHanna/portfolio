@@ -1,6 +1,4 @@
 # TODO
 
 - Replace favicon with something custom
-- Add links to my email, LinkedIn, and PDF resume to the home section
-- Finish styling the experience section
-- Add the contact section
+- Add link to my PDF resume to the home section

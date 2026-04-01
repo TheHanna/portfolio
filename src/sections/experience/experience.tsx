@@ -50,26 +50,26 @@ export function Experience() {
       </p>
       <ul className={styles.apps}>
         <li>
-          <div className={styles.app}>Consumer Marketplace:</div>
+          <div className={styles.app}>Consumer Marketplace</div>
           <p className={styles.appDescription}>
             Allow customers to browse various insurance products; built in
             Next.js
           </p>
         </li>
         <li>
-          <div className={styles.app}>shopping-ui:</div>
+          <div className={styles.app}>shopping-ui</div>
           <p className={styles.appDescription}>
             Allow agents to browse various insurance products; built in React
           </p>
         </li>
         <li>
-          <div className={styles.app}>shopping-api:</div>
+          <div className={styles.app}>shopping-api</div>
           <p className={styles.appDescription}>
             Backend for shopping-ui; built using Java with Spring Boot
           </p>
         </li>
         <li>
-          <div className={styles.app}>Medicare Advantage Parser:</div>
+          <div className={styles.app}>Medicare Advantage Parser</div>
           <p className={styles.appDescription}>
             A Python application that parses and generates SQLite databases of
             both Medicare and carrier plans data, including full benefits
@@ -77,7 +77,7 @@ export function Experience() {
           </p>
         </li>
         <li>
-          <div className={styles.app}>Agent Data Feed:</div>
+          <div className={styles.app}>Agent Data Feed</div>
           <p className={styles.appDescription}>
             A series of Apache Airflow workflows, created in Python, run via
             Astronomer, for updating internal and external agent data required
@@ -123,7 +123,7 @@ export function Experience() {
           </p>
         </li>
         <li>
-          <div className={styles.app}>Fulfillment Portal:</div>
+          <div className={styles.app}>Fulfillment Portal</div>
           <p className={styles.appDescription}>
             Allow operations center to track orders, make purchasing decisions,
             receive quotes, and ensure we're meeting our service level
@@ -131,7 +131,7 @@ export function Experience() {
           </p>
         </li>
         <li>
-          <div className={styles.app}>TAV-P:</div>
+          <div className={styles.app}>TAV-P</div>
           <p className={styles.appDescription}>
             Total Access Visibility Portal used by USAF to check the status of
             their requisitions
