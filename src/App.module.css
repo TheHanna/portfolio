@@ -6,7 +6,7 @@
   top: 0;
   right: 0;
   position: fixed;
-  background-color: var(--american-violet-shade-500)
+  background-color: var(--secondary-shade-700)
 }
 
 .main {
@@ -30,21 +30,15 @@
   padding: 3rem 1rem 1rem 1rem;
 }
 
-.section p {
-  font-family: "Domine";
-  color: var(--harbour-tint-800);
-  font-size: 0.875rem;
-}
-
 .title {
   font-family: "Montserrat Alternates";
-  color: var(--american-violet-tint-400);
+  color: var(--primary-base);
   border-bottom: 1px dotted
 }
 
 .downArrow {
   font-size: 4rem;
-  color: var(--field-time-green-tint-200);
+  color: var(--success-base);
   position: absolute;
   bottom: 0;
 }

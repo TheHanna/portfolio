@@ -7,8 +7,7 @@
 
 .container h4 {
   font-family: "Montserrat Alternates";
-  color: var(--harbour-tint-800);
-  /* border-bottom: 1px dotted var(--harbour-tint-800); */
+  color: var(--primary-tint-600);
   display: block;
   margin: 0.5rem 0;
   text-align: center;

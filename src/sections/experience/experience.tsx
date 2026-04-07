@@ -14,7 +14,7 @@ export function Experience() {
         <li>
           <div className={styles.app}>Case Status</div>
           <p className={styles.appDescription}>
-            Allow attorneys and clients to communicate clearly with o ne another
+            Allow attorneys and clients to communicate clearly with one another
             about a case
           </p>
         </li>

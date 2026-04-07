@@ -1,17 +1,17 @@
 .title {
   font-family: "Montserrat Alternates";
   margin: 0;
-  color: var(--selective-yellow-tint-200)
+  color: var(--warn-base)
 }
 
 .company, .duration {
   font-family: "Domine";
   margin: 0;
-  color: var(--selective-yellow-tint-600)
+  color: var(--warn-tint-400)
 }
 
 .app {
-  color: var(--field-time-green-tint-400);
+  color: var(--info-tint-300);
   font-weight: bold;
   font-style: italic;
 }

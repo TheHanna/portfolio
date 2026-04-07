@@ -10,39 +10,34 @@
 .light {
   background-color: var(--white);
   color: var(--black);
-  border: 2px solid var(--black);
 }
 
 .dark {
   background-color: var(--black);
   color: var(--white);
-  border: 2px solid var(--white)
 }
 
 .warning {
-  background-color: var(--selective-yellow-base);
-  color: var(--selective-yellow-shade-800);
-  border: 2px solid var(--selective-yellow-tint-800);
+  background-color: var(--warn-base);
+  color: var(--warn-shade-700);
 }
 
 .danger {
-  background-color: var(--vermilion-orange-base);
-  color: var(--vermilion-orange-shade-800);
-  border: 2px solid var(--vermilion-orange-tint-800);
+  background-color: var(--danger-base);
+  color: var(--danger-shade-700);
 }
 
 .success {
-  background-color: var(--field-time-green-base);
-  color: var(--field-time-green-tint-800);
+  background-color: var(--success-base);
+  color: var(--success-shade-700);
 }
 
 .link {
-  background-color: var(--american-violet-shade-500);
-  color: var(--american-violet-tint-400);
+  background-color: var(--secondary-shade-700);
+  color: var(--secondary-base);
 }
 
 .info {
-  background-color: var(--harbour-base);
-  border: 2px solid var(--harbour-shade-800);
-  color: var(--harbour-tint-800);
+  background-color: var(--info-base);
+  color: var(--info-shade-800);
 }

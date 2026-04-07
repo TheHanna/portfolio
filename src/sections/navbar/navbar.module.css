@@ -7,7 +7,7 @@
 
 .navbar a {
   font-family: "Domine";
-  color: var(--american-violet-tint-400);
+  color: var(--secondary-tint-200);
   text-decoration: underline;
   text-underline-offset: 0.25rem;
   padding: 0.25rem;
